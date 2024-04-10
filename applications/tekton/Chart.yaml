@@ -1,0 +1,14 @@
+
+---
+apiVersion: v2
+name: tekton-pipeline
+description: Helm chart to include loki with values
+type: application
+version: 1.0.0
+appVersion: 1.0.0
+
+dependencies:
+  - name: tekton-pipeline
+    version: 1.0.2
+    repository: https://cdfoundation.github.io/tekton-helm-chart/
+    condition: tekon.enabled
