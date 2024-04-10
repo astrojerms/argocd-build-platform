@@ -1,6 +1,7 @@
 # https://github.com/cdfoundation/tekton-helm-chart/blob/main/charts/tekton-pipeline/values.yaml
 
 tekton:
+  enabled: true
   auth:
     git:
       username: "admin"
