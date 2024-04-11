@@ -9,6 +9,6 @@ appVersion: 1.0.0
 
 dependencies:
   - name: minio-operator
-    version: 5.1.0
+    version: 5.0.14
     repository: https://operator.min.io
     condition: minio.enabled

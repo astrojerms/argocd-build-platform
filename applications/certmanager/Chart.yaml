@@ -1,7 +1,7 @@
 
 ---
 apiVersion: v2
-name: cert-manager
+name: certmanager
 description: Helm chart to include loki with values
 type: application
 version: 1.0.0
