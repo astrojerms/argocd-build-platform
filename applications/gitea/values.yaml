@@ -1,4 +1,5 @@
 gitea:
+  enabled: true
   # Default values for gitea.
   # This is a YAML-formatted file.
   # Declare variables to be passed into your templates.
@@ -8,7 +9,6 @@ gitea:
   ## @param global.imagePullSecrets global image pull secrets override; can be extended by `imagePullSecrets`
   ## @param global.storageClass global storage class override
   ## @param global.hostAliases global hostAliases which will be added to the pod's hosts files
-  enabled: true
   global:
     imageRegistry: ""
     ## E.g.
