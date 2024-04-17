@@ -8,6 +8,7 @@ gitea:
   ## @param global.imagePullSecrets global image pull secrets override; can be extended by `imagePullSecrets`
   ## @param global.storageClass global storage class override
   ## @param global.hostAliases global hostAliases which will be added to the pod's hosts files
+  enabled: true
   global:
     imageRegistry: ""
     ## E.g.
